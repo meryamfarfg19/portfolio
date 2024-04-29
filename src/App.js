@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div  className="containerr">
-      <Router>
+      <Router basename='/'>
           <NavBar />
           <div className='dividerr' id="up"/>
            <Home/>
