@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+
+/********NAVBAR************************/
+.logotext{
+  /* //font-size: 0.5rem; */
+  font-family: FiraSans ; 
+  color:#b69756 ; 
+  text-shadow:3px 3px 0px rgb(243, 243, 158) ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .nav-link{
+  font-weight: 500;
+  color: #091b18 !important;
+  text-transform: uppercase;
+} */
+
+.nav-link {
+  /* font-size: 1.2em; */
+  font-family: 'Roboto', sans-serif;
+  /* cursor: pointer;
+  letter-spacing: .1em; */
+  color: black;
+  text-transform: uppercase;
+   border-bottom: 2px solid transparent; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ .nav-link:hover {
+  transform: translateY(-2px);
+}
+.navbar-nav .nav-link.active {
+  color:#ffcc00;
+  font-weight: bold;
+  border-bottom: 2px solid #ffcc00;
+  transition: border-bottom .5s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.typed-text{
+  font-size: 2rem;
+  color: black;
 }

@@ -1,0 +1,59 @@
+ /*------------------
+table of content
+--------------------
+
+1. left Section -->toules Buttons 
+2. right Section -->skills cards 
+*/
+section.skills{
+     border-radius: 50%;
+     border-color: rgba(250, 6, 6, 0.5);
+     border-width: 2rem;
+}
+
+div.skill{
+  gap: 2.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.skills h1.title{
+  font-size: 2rem;
+  color:var(--title);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+section.skills button{
+ background-color: rgba(36, 37, 46,1);
+ color: aliceblue;
+  width: 11rem;
+  padding: 0.75rem 0;
+  text-align: center;
+  font-size: 1.05rem;
+  opacity: 2;
+  border-radius: 5px;
+  cursor: default;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+}
+
+
+/* ****************
+   4. Responsive Design (media query)
+**************** */
+
+@media (max-width:600px) {/* in screen less than 600px */
+  section.skills{
+    flex-direction: column;
+    gap: 2.6rem;
+    align-items: center;
+  }
+
+  section.skill button{
+     width: 7rem;
+     padding: 0.8rem 0;
+     font-size: 0.9rem;
+   }
+}
+

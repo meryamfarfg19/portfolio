@@ -1,0 +1,169 @@
+ /*------------------
+table of content
+--------------------
+
+1. left Section -->contact form 
+2. right Section -->animation
+*/
+
+
+section.contact h1.title{
+  text-align: center;
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+  color:var(--title);
+}
+
+section.contact .subtitle{
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 2rem;
+  color:var(--subtitle);
+}
+
+
+.text-danger{
+  /* font-size: 2.1rem; */
+  margin-bottom: 1rem;
+  color:rgb(255, 0, 0);
+}
+
+.text-success{
+   font-size: 2.1rem; 
+  margin-bottom: 1rem;
+  color:rgb(0, 128, 0);
+}
+
+
+
+/* ****************
+   2. leftt Section -->contact form
+**************** */
+
+section.contact .left-section{
+ flex-grow: 1;
+}
+section.hero .icon-envelope-o{
+  color: var(--subtitle);
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+section.contact label{
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 2rem;
+  color:var(--subtitle);
+}
+
+section.contact #name,
+section.contact #email, 
+section.contact #message{
+  all: unset;
+  width: 16rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(63,63,70,0.15);
+  border: 1px solid rgb(63 63 70);
+  margin-left: 1rem;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 1.1rem;
+}
+/*light mode*/
+.light section.contact #name,
+.light section.contact #email,
+.light section.contact #message{
+  background-color: rgba(255, 255, 255, 0.162);
+  border: 1px solid rgba(165, 160, 160, 0.451);
+  box-shadow: 1px 1px 1px rgba(73,73,75,0.105);
+  color: #232324;
+}
+
+section.contact #name:focus, 
+section.contact #email:focus, 
+section.contact #message:focus,
+section.contact #name:hover, 
+section.contact #email:hover, 
+section.contact #message:hover{
+  border: 1px solid rgb(45 212 191);
+}
+
+
+/*light mode*/
+.light section.contact #name:focus, 
+.light section.contact #email:focus,
+.light section.contact #message:focus,
+.light section.contact #name:hover,
+.light section.contact #email:hover, 
+.light section.contact #message:hover{
+  border: 1px solid rgb(24, 23, 23);
+}
+
+section.contact #message{
+min-height: 9rem;
+resize: vertical;
+}
+
+section.contact .submit{
+  background-color: rgba(36, 37, 46,1);
+  color: aliceblue;
+   padding: 0.75rem 2rem;
+   text-align: center;
+   font-size: 1.05rem;
+   text-transform: capitalize;
+   margin-top: 1.8rem;
+   border-radius: 5px;
+   border: 1px solid rgb(63 63 70);
+   transition: 0.3s;
+ }
+
+ section.contact .submit{
+  scale: 0.97;
+ }
+
+/* ****************
+   2. right Section -->animation
+**************** */
+
+.right-section{
+  translate: 10px -60px; 
+}
+
+
+
+/* ****************
+   3. Responsive Design (media query)
+**************** */
+
+
+@media (max-width:1100px) {
+  section.contact .contact-animation{
+    display: none;/* in screen less than 1100px the contact animatiom disappear*/
+  }
+}
+
+@media (max-width:600px) {/* in screen less than 600px */
+  section.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+
+  section.contact form div.flex{
+    flex-direction: column;
+    align-items: start;
+  }
+
+  section.contact #name,
+  section.contact #email, 
+  section.contact #message{
+     width: 100%;
+     padding: 0.7rem 0;
+     margin-left: 0;
+     margin-top: 0.5rem 0;
+   }
+   section.contact .submit{
+    width: 30%;
+    align-self: center;
+   }
+}

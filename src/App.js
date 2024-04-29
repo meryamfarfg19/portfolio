@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router} from "react-router-dom";
+import NavBar from "./components/1-header/NavBar"
+import Home from "./components/2-hero/Home"
+import Projects from './components/3-projects/Projects'
+import Skills from './components/4-skills/Skills'
+import Contact from './components/5-contact/Contact'
+import Footer from "./components/6-footer/Footer"
 
 function App() {
+  const [showScrolBtn,setShowScrolBtn]=useState(false)
+  useEffect(()=>{
+      window.addEventListener("scroll",()=>{
+              if(window.scrollY>300){setShowScrolBtn(true)}
+              else setShowScrolBtn(false) 
+      })
+  },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div  className="containerr">
+      <Router>
+          <NavBar />
+          <div className='dividerr' id="up"/>
+           <Home/>
+          <div className='dividerr'/>
+          <Projects/>
+          <div className='dividerr'/>
+          <Skills/>
+          <div className='dividerr'/>
+          <Contact/>
+          <div className='dividerr'/>
+          <Footer/>
+      <a href="up" style={{opacity: showScrolBtn? 1:0, transition:"1s"}}><button className="icon-circle-up myBtne" /></a>
+      </Router>
     </div>
   );
 }
