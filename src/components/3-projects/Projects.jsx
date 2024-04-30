@@ -43,7 +43,7 @@ export default function Projects() {
                             animate={{transform:"scale(1)",}}
                             transition={{damping:6, type:"spring",stiffness:100}}
                         >
-                        <img width={266} height={266} src={item.image} alt="project1img"/>
+                        <img width={266} height={266} src={item.image} alt={item.title}/>
                         <div style={{ width: "266px", height: "210px" }} className="box">
                             <h1 className="title">{item.title}</h1>
                             <p className="subtitle">{item.description}</p>

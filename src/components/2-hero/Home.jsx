@@ -30,7 +30,7 @@ export default function UsersApp() {
                              }}
                              transition={{duration:3}}
                   >
-                    Hi,I'm Maria<br/>Junior Fall Stack Developer
+                    Hi,I'm Maria<br/>Junior Full Stack Developer
                   </motion.h1>
                   <motion.h2 className="subtitle">Currently in Enola, PA</motion.h2>
                   <p className="subtitle">

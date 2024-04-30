@@ -30,7 +30,7 @@ function App() {
           <Contact/>
           <div className='dividerr'/>
           <Footer/>
-      <a href="up" style={{opacity: showScrolBtn? 1:0, transition:"1s"}}><button className="icon-circle-up myBtne" /></a>
+      <a href="#up" style={{opacity: showScrolBtn? 1:0, transition:"1s"}}><button className="icon-circle-up myBtne" /></a>
       </Router>
     </div>
   );
