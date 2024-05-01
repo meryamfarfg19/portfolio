@@ -34,7 +34,7 @@ function NavBar() {
                       ease:'easeInOut'
                     }}   
       >
-            <img alt="logo" src="./logo.png" style={{width:"55px"}} />
+            <img alt="logo" src="portfolio/logo.png" style={{width:"55px"}} />
             {"  "}ME | Portfolio
     </motion.h3>
       

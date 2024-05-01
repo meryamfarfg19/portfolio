@@ -49,7 +49,7 @@ export default function Projects() {
                             <p className="subtitle">{item.description}</p>
                             <div className="inner flex all-icons">
                                 <div className="flex" style={{gap:"1.2rem"}}>
-                                    <a href="{item.link}" ><div className="icon icon-link"/></a>
+                                    <a href={item.link} ><div className="icon icon-link"/></a>
                                     <a href={item.github} ><div className="icon icon-github"/></a>
                                 </div>
                                 <a className="link flex" href="/">

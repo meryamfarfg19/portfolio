@@ -12,7 +12,7 @@ export default function UsersApp() {
    return <section id="home" className="hero flex" >
               <div className="left-section ">
                   <div className="parent-avatar flex">
-                    <motion.img src="./avatar.png" 
+                    <motion.img src="portfolio/avatar.png" 
                                 className="avatar" 
                                 alt="parent-avatar"
                                 initial={{transform:"scale(0)",}}
