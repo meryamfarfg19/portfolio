@@ -31,7 +31,7 @@ function Footer() {
                  ease:'easeInOut'
                }}   
       >
-          <img alt="logo" src="portfolio/logo.png" style={{width:"55px"}} />
+          <img alt="logo" src="./portfolio/logo.png" style={{width:"55px"}} />
           ME | Portfolio
       </motion.h3>
       <ul className="flex">  
