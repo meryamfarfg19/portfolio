@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.186b1c49.css",
-    "main.js": "/portfolio/static/js/main.6a74ff18.js",
+    "main.js": "/portfolio/static/js/main.9e007c87.js",
     "static/media/maghribicuisinpa.png": "/portfolio/static/media/maghribicuisinpa.043c154e15cf43c13797.png",
+    "static/media/pennyicecream.png": "/portfolio/static/media/pennyicecream.6441afae9ebc5eff0d4d.png",
+    "static/media/imgweb.jpg": "/portfolio/static/media/imgweb.b26906aa0583f6492fd3.jpg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.8e2948d5b12a17b08b71.png",
     "index.html": "/portfolio/index.html",
     "main.186b1c49.css.map": "/portfolio/static/css/main.186b1c49.css.map",
-    "main.6a74ff18.js.map": "/portfolio/static/js/main.6a74ff18.js.map"
+    "main.9e007c87.js.map": "/portfolio/static/js/main.9e007c87.js.map"
   },
   "entrypoints": [
     "static/css/main.186b1c49.css",
-    "static/js/main.6a74ff18.js"
+    "static/js/main.9e007c87.js"
   ]
 }
