@@ -1,4 +1,8 @@
-import logo from './maghribicuisinpa.png';
+import maghribicuisinpa from '../../assets/projectsimg/maghribicuisinpa.png';
+import portfolio from "../../assets/projectsimg/portfolio.png";
+import imgweb from "../../assets/projectsimg/imgweb.jpg";
+import pennyicecream from "../../assets/projectsimg/pennyicecream.png";
+
 export const myprojects = [
   {
     title:"Maghribi Cuisin of PA",
@@ -6,8 +10,8 @@ export const myprojects = [
     category:['HTML', 'CSS', 'Bootstrap'],
     description:
       "Responsive web site to showcase the exquisite flavors and cultural richness of Moroccan dishes. It ensure an optimal viewing experience across all devices and screen sizes. Also, implemente interactive features such as a dynamic menu display, and easy-to-navigate layout to engage users and stimulate their appetite.",
-    //image: logo,
-    image: "./portfolio/projectsimg/maghribicuisinpa.png",
+    image: maghribicuisinpa,
+    //image: "../../assets/projectsimg/maghribicuisinpa.png",
     link: "",
     github:"",
 },
@@ -17,7 +21,7 @@ export const myprojects = [
     category:['HTML5', 'CSS', 'Bootstrap', 'React', 'Node', 'Express'],
     description:
       "Web application for a small family-owned ice cream business located in Lancaster. this website enabls the client to showcase their products and services online. In this project I collaborated with a team to define project requirements and objectives.",
-    image: "./portfolio/projectsimg/pennyicecream.png",
+    image: pennyicecream,
     link: "",
     github:"",
   },
@@ -28,7 +32,7 @@ export const myprojects = [
     description:
       "I build a portfolio website with dark-mode feature to showcase my skills and the collection of my previous projects.",
     //image: "./projectsimg/portfolio.png",
-    image: "./portfolio/projectsimg/portfolio.png",
+    image: portfolio,
     link: "",
     github:"https://github.com/meryamfarfg19/portfolio",
   },
@@ -38,7 +42,7 @@ export const myprojects = [
     category:['React', 'CSS', 'HTML', 'Bootstrap', 'Node', 'Stripe'],
     description:
       "E-commerce website comes equiped with a range of features that include cart and payment functionalities to provide users with seamless shopping experience, fetching products and their details, and payment gateways with Stripe to facilitate safe transactions.",
-    image: "./portfolio/projectsimg/imgweb.jpg",
+    image: imgweb,
     link: "",
     github:"",
   },
