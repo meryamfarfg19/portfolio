@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import logo from "../../assets/logo.png";
 import "./header.css"
 import {motion} from "framer-motion";
 import { HashLink as Link } from 'react-router-hash-link';//npm install --save react-router-hash-link
@@ -34,7 +35,7 @@ function NavBar() {
                       ease:'easeInOut'
                     }}   
       >
-            <img alt="logo" src="./portfolio/logo.png" style={{width:"55px"}} />
+            <img alt="logo" src={logo} style={{width:"55px"}} />
             {"  "}ME | Portfolio
     </motion.h3>
       

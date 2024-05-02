@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css"
+import avatar from "../../assets/avatar.png"
 import Lottie from "lottie-react";//Install using npm install lottie-react(for animation)
 import devAnimation from "../../animation/developer.json"
 import { useRef } from "react";
@@ -12,7 +13,7 @@ export default function UsersApp() {
    return <section id="home" className="hero flex" >
               <div className="left-section ">
                   <div className="parent-avatar flex">
-                    <motion.img src="./portfolio/avatar.png" 
+                    <motion.img src={avatar} 
                                 className="avatar" 
                                 alt="parent-avatar"
                                 initial={{transform:"scale(0)",}}
