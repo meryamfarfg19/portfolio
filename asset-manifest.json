@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.186b1c49.css",
-    "main.js": "/portfolio/static/js/main.d9b48db3.js",
+    "main.js": "/portfolio/static/js/main.6a74ff18.js",
     "static/media/maghribicuisinpa.png": "/portfolio/static/media/maghribicuisinpa.043c154e15cf43c13797.png",
     "index.html": "/portfolio/index.html",
     "main.186b1c49.css.map": "/portfolio/static/css/main.186b1c49.css.map",
-    "main.d9b48db3.js.map": "/portfolio/static/js/main.d9b48db3.js.map"
+    "main.6a74ff18.js.map": "/portfolio/static/js/main.6a74ff18.js.map"
   },
   "entrypoints": [
     "static/css/main.186b1c49.css",
-    "static/js/main.d9b48db3.js"
+    "static/js/main.6a74ff18.js"
   ]
 }
